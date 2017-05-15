@@ -1,2 +1,4 @@
-# Test
-still test
+# Mini Game GUI Project
+Simon Says
+Memory Game
+Zork???
