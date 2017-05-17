@@ -5,19 +5,39 @@ public class PorkMainFile
     public static void main(String[] args)
     {
         Scanner in = new Scanner(System.in);
+        
         System.out.println("Version 0.1, all rights reserved");
         System.out.println("  ____     ___    ____    _  __");
         System.out.println(" |  _ \\   / _ \\  |  _ \\  | |/ /");
         System.out.println(" | |_) | | | | | | |_) | | ' / ");
         System.out.println(" |  __/  | |_| | |  _ <  | . \\ ");
         System.out.println(" |_|      \\___/  |_| \\_\\ |_|\\_\\");
-        System.out.println("By Alex, Luke, Andy, and Bryson");
-        System.out.println("NOTE: Please feel free to put in your last names\n");
-        System.out.println("Mystery Scenario loaded, because it's the only scenario");
+        System.out.println("");
+        System.out.println("NOTE: It is a MAJOR WIP, it doesn't even have last names\n");
 
-        Time.Wait(2);
+
+        Time.Wait(1);
+        System.out.println("INSERT STORY ELEMENTS HERE");
+        //HOW THE PROGRAM WILL WORK BASIC GUIDELINES
+        //Differect actions will have seperate classes, like "Move", "Open", "Kill", ya know basic stuff like that
+        //This main class will allow you to continually do different actions
+        //Certain variables, like your current location and items, will be held here and passed into the action classes
+        //That way, we won't have to rewrite the same dumb commands every five seconds
         
-        System.out.println("it worked apparently");
+        String location = start;
+        String items[] = new String[];
+        
+        String input = in.nextLine();
+        if (action.toLowerCase() == "move")
+        {
+            System.out.println("What direction?");
+            input = in.nextLine();
+            move(location,input); //calls the class to run the action (CLASS NOT MADE YET)
+        }
+        
+        if (action.toLowerCase() == "credits")
+        {
+        }
     }
 }
 
