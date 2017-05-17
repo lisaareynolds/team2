@@ -4,19 +4,21 @@ public class PorkMainFile
 {
     public static void main(String[] args)
     {
-        boolean confirmed = false;//USED FOR LOOPING
-        String name = "";//USED TO STORE THE NAME
-        String answer = "";
+        //boolean confirmed = false;//USED FOR LOOPING
+        //String name = "";//USED TO STORE THE NAME
+        //String answer = "";
 
         Scanner in = new Scanner(System.in);
-        System.out.println("Hello, and welcome to...");
-        EasyTime.Wait(3);
-        System.out.println("Pause for dramatic effect...");
-        EasyTime.Wait(3);
-        System.out.println("The Really Badly Written Game that isn't even a game!");
-        EasyTime.Wait(1);
-        System.out.println("*Cheering in the background*");
-        EasyTime.Wait(2);
+        System.out.println("Version 0.1, all rights reserved");
+        System.out.println("  ____     ___    ____    _  __");
+        System.out.println(" |  _ \\   / _ \\  |  _ \\  | |/ /");
+        System.out.println(" | |_) | | | | | | |_) | | ' / ");
+        System.out.println(" |  __/  | |_| | |  _ <  | . \\ ");
+        System.out.println(" |_|      \\___/  |_| \\_\\ |_|\\_\\");
+        System.out.println("By Alex, Luke, Andy, and Bryson");
+        System.out.println("NOTE: Please feel free to put in your last names\n");
+        System.out.println("Mystery Scenario loaded, because it's the only scenario");
+
 
         //========================= - Name Choosing - =========================
 
