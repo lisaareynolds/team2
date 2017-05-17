@@ -1,5 +1,30 @@
 import java.util.Scanner;
 
+public class HelloWorld
+{
+    public static void main(String[] args)
+    {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Version 0.1, all rights reserved");
+        System.out.println("  ____     ___    ____    _  __");
+        System.out.println(" |  _ \\   / _ \\  |  _ \\  | |/ /");
+        System.out.println(" | |_) | | | | | | |_) | | ' / ");
+        System.out.println(" |  __/  | |_| | |  _ <  | . \\ ");
+        System.out.println(" |_|      \\___/  |_| \\_\\ |_|\\_\\");
+        System.out.println("By Alex, Luke, Andy, and Bryson");
+        System.out.println("NOTE: Please feel free to put in your last names\n");
+        System.out.println("Mystery Scenario loaded, because it's the only scenario");
+
+        Time.Wait(2);
+        
+        System.out.println("it worked apparently");
+    }
+}
+
+
+/*
+import java.util.Scanner;
+
 public class PorkMainFile
 {
     public static void main(String[] args)
@@ -168,3 +193,4 @@ public class PorkMainFile
         EasyTime.Wait(3);
     }
 }
+*/
