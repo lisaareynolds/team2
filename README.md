@@ -1,6 +1,2 @@
 # Mini Game GUI Project
-Simon Says
-
-Memory Game
-
-Zork
+ ̶Z̶o̶r̶k̶   Pork
