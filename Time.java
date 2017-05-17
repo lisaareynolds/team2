@@ -10,7 +10,7 @@ To wait 3.5 seconds:  EasyTime.Wait(3.5);
 This was created for pauses when needed in "Pork"
 *//
 
-public class EasyTime
+public class Time
 {
     public static void Wait(double waitTime)
     {
