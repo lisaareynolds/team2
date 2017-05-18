@@ -6,4 +6,10 @@ You are trying to escape
 May have a dramatic boss battle or something
 
 Programming related:
-include a map action that shows how much you have explored and your current location
+Seperate Class Files:
+
+Map - displays what you have explored of the map
+Stats - shows stats like health, items, etc
+Move - moves location.  Excepts a second input
+Kill - kill something
+Inspect - inspect something
