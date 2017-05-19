@@ -9,7 +9,8 @@ Programming related:
 Seperate Class Files:
 
 Map - displays what you have explored of the map
-Stats - shows stats like health, items, etc
+Stats - shows stats like health, items, etc (Finished)
 Move - moves location.  Excepts a second input
-Kill - kill something
+Attack - attack something
 Inspect - inspect something
+Death - you died (Finished kinda)
