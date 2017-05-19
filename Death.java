@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class Stats
+public class Death
 {
     public static void Death()
     {
@@ -11,7 +11,7 @@ public class Stats
         {
             case 1: System.out.println("Next time, use your head");
                     break;
-            case 2: System.out.println("Your be an idiot, you idiot");
+            case 2: System.out.println("Don't be an idiot, you idiot");
                     break;
             case 3: System.out.println("Don't be sad, lot's of people fail at life");
                     break;
