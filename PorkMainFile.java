@@ -62,7 +62,7 @@ public class PorkMainFile
             }
             else if (input.toLowerCase().equals("suicide"))
             {
-                //death();
+                Death.Death();
             }
             else
             {
