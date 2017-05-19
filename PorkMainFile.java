@@ -58,7 +58,7 @@ public class PorkMainFile
             }
             else if (input.toLowerCase().equals("inspect"))
             {
-                //inspect(location);
+                //inspect(location); //can't finish because there is no layout yet
             }
             else if (input.toLowerCase().equals("suicide"))
             {
