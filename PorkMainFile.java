@@ -17,7 +17,7 @@ public class PorkMainFile
         System.out.println(" |_|      \\___/  |_| \\_\\ |_|\\_\\");
         System.out.println("");
         System.out.println("NOTE: It is a MAJOR WIP, it doesn't even have last names\n");
-        System.out.println("Type \"help\" for help");
+        System.out.println("Type \"help\" for list of commands");
 
         Time.Wait(1);
         System.out.println("INSERT STORY ELEMENTS HERE");
