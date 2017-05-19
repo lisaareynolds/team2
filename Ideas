@@ -1,9 +1,5 @@
 Story:
-Mystery Game
-You are trapped, somewhere...?
-Has a couple room
-You are trying to escape
-May have a dramatic boss battle or something
+???
 
 Programming related:
 Seperate Class Files:
@@ -14,3 +10,12 @@ Move - moves location.  Excepts a second input
 Attack - attack something
 Inspect - inspect something
 Death - you died (Finished kinda)
+
+
+TODO List:
+
+Make main file into a switch statement
+Make Death more customized to how you died
+Finish the map/map class
+Add items in the rooms for classes like inspect and attack to use
+Add a real story once all this is done
