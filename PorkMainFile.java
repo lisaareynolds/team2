@@ -44,17 +44,25 @@ public class PorkMainFile
                 System.out.println("Command List:");
                 System.out.println("move, help, ");//later make in alphabetical order
             }
-            else if (input.toLowerCase().equals("move")) //after this classes uses other classes
+            else if (input.toLowerCase().equals("map")) //after this classes uses other classes
             {
-                System.out.println("What direction?");
-                input = in.nextLine();
-                //move(location,input); //calls the class to run the action (CLASS NOT MADE YET)
+                //map(location); //calls the class to run the action (CLASS NOT MADE YET)
             }
-            else if (input.toLowerCase().equals("explode")) //after this classes uses other classes
+            else if (input.toLowerCase().equals("stats"))
             {
-                System.out.println("You just exploded");
-                end = true;
-                finished = true;
+                //Stats.Stats(health, item);
+            }
+            else if (input.toLowerCase().equals("attack"))
+            {
+                //attack(location);
+            }
+            else if (input.toLowerCase().equals("inspect"))
+            {
+                //inspect(location);
+            }
+            else if (input.toLowerCase().equals("suicide"))
+            {
+                //death();
             }
             else
             {
