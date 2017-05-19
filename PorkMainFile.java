@@ -34,23 +34,23 @@ public class PorkMainFile
         {
             String input = in.nextLine();
                 
-            if (input.toLowerCase() == "credits") //first couple classes don't use any other classes
+            if (input.toLowerCase().equals("credits")) //first couple classes don't use any other classes
             {
                 System.out.println("By Alex Thomsen, Luke Mendes, Andy Hsu?, That Bryson Guy");
                 System.out.println("I think this is right...");
             }
-            else if (input.toLowerCase() == "help")
+            else if (input.toLowerCase().equals("help"))
             {
                 System.out.println("Command List:");
                 System.out.println("move, help, ");//later make in alphabetical order
             }
-            else if (input.toLowerCase() == "move") //after this classes uses other classes
+            else if (input.toLowerCase().equals("move")) //after this classes uses other classes
             {
                 System.out.println("What direction?");
                 input = in.nextLine();
                 //move(location,input); //calls the class to run the action (CLASS NOT MADE YET)
             }
-            else if (input.toLowerCase() == "explode") //after this classes uses other classes
+            else if (input.toLowerCase().equals("explode")) //after this classes uses other classes
             {
                 System.out.println("You just exploded");
                 end = true;
