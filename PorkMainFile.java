@@ -50,7 +50,7 @@ public class PorkMainFile
             }
             else if (input.toLowerCase().equals("stats"))
             {
-                //Stats.Stats(health, item);
+                Stats.Stats(health, item);
             }
             else if (input.toLowerCase().equals("attack"))
             {
