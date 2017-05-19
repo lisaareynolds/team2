@@ -20,14 +20,16 @@ public class PorkMainFile
         //Time.Wait(1);
         System.out.println("INSERT STORY ELEMENTS HERE");
         
-        int location = 1;
-        String item = "None"; //Add more items as needed
+        int location = 1; //first room
+        String item = "None";
         int health = 5;
             
         while (finished == false)
         {
             String input = in.nextLine();
-                
+            
+            //CHANGE INTO A SWITCH STATEMENT FOR EASIER READABILITY
+            
             if (input.toLowerCase().equals("credits")) //first couple classes don't use any other classes
             {
                 System.out.println("By Alex Thomsen, Luke Mendes, Andy Hsu?, That Bryson Guy");
@@ -35,12 +37,16 @@ public class PorkMainFile
             }
             else if (input.toLowerCase().equals("help"))
             {
-                System.out.println("Command List:");
+                System.out.println("Command List: move, help, credits, stats, attack, inspect, suicide");
                 System.out.println("move, help, ");//later make in alphabetical order
             }
             else if (input.toLowerCase().equals("map")) //after this classes uses other classes
             {
                 //map(location); //calls the class to run the action (CLASS NOT MADE YET)
+            }
+            else if (input.toLowerCase().equals("mmve"))
+            {
+                //move(location);
             }
             else if (input.toLowerCase().equals("stats"))
             {
@@ -59,12 +65,10 @@ public class PorkMainFile
                 Death.Death();
                 break;
             }
-            
             else
             {
                 System.out.println("That is not a command, type \"help\" for list of commands");
             }
-            System.out.println(input);
         }
 
     System.out.println("Thank you for playing");
