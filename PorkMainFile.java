@@ -31,11 +31,11 @@ public class PorkMainFile
         anArray = new int[10];
            
         // initialize first element
-        anArray[0,0] = "There lies a metal table with a flickering LED screen. Between each flash you can make out these words: /n SECUTIRY QUESTION- It is greater than God and more evil than the devil. The poor have it, the rich need it, and if you eat it you’ll die. What is it?"; 
-        anArray[1,0] = ""; 
-        anArray[2,0] = 300; 
-        anArray[3,0] = 400; 
-        anArray[4,0] = 500; 
+        anArray[0,0] = "There lies a metal table with a flickering LED screen. Between each flash you can make out these words: /n SECUTIRY QUESTION- It is greater than God and more evil than the devil. The poor have it, the rich need it, and if you eat it you’ll die. What is it? As you looked back it seemed Abligale was deep in thought, determind to figure it out"; 
+        anArray[1,0] = "The final door, You can see your reflection in its metlaic shine. A glipse of hope, one last chance. Now if only you had the code."; 
+        anArray[2,0] = "In the corner of the room there's a tablet on the wall, it has a keyboard poped out. The screen is cracked, but you can make out that it needs a six letter passcode. This must be where Dr. Erskine told you to put the code. you can feel the blood pumping from your heart, desprate to get out of this hell."; 
+        anArray[3,0] = 0; 
+        anArray[4,0] = " "; 
         anArray[5,0] = 600; 
         anArray[6,0] = 700; 
         anArray[7,0] = 800; 
