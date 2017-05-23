@@ -21,7 +21,7 @@ public class PorkMainFile
         System.out.println("INSERT STORY ELEMENTS HERE");
         
         int location = 1; //first room
-        String item = "None";
+        String item = "nothing";
         int health = 5;
             
         while (finished == false)
