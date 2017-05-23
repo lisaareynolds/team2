@@ -22,6 +22,6 @@ public class Death
             default: System.out.println("Class DEATH is producing errors")
                     break;
         }
-        System.out.println("You died")
+        System.out.println("You died");
     }
 }
