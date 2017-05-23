@@ -19,7 +19,7 @@ public class Death
                     break;
             case 5: System.out.println("Usually, mistakes are good as you learn from them...");
                     break;
-            default: System.out.println("Class DEATH is producing errors")
+            default: System.out.println("Class DEATH is producing errors");
                     break;
         }
         System.out.println("You died");
