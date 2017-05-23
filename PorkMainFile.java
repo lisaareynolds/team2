@@ -23,7 +23,28 @@ public class PorkMainFile
         int location = 1; //first room
         String item = "nothing";
         int health = 5;
+        
+         // declares an array of integers
+        int[] anArray;
+
+        // allocates memory for 10 integers
+        anArray = new int[10];
+           
+        // initialize first element
+        anArray[0,0] = "There lies a metal table with a flickering LED screen. Between each flash you can make out these words: /n SECUTIRY QUESTION- It is greater than God and more evil than the devil. The poor have it, the rich need it, and if you eat it you’ll die. What is it?"; 
+        anArray[1,0] = ""; 
+        anArray[2,0] = 300; 
+        anArray[3,0] = 400; 
+        anArray[4,0] = 500; 
+        anArray[5,0] = 600; 
+        anArray[6,0] = 700; 
+        anArray[7,0] = 800; 
+        anArray[8,0] = 900; 
+        anArray[9,0] = 1000;
             
+       
+        
+        
         while (finished == false)
         {
             String input = in.nextLine();
@@ -44,7 +65,7 @@ public class PorkMainFile
             {
                 //map(location); //calls the class to run the action (CLASS NOT MADE YET)
             }
-            else if (input.toLowerCase().equals("mmve"))
+            else if (input.toLowerCase().equals("move"))
             {
                 //move(location);
             }
