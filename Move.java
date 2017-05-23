@@ -10,7 +10,18 @@ public class Move
         Scanner in = new Scanner(System.in);
         boolean errorCheck = false;
 
-        int[][] location = new int[10][10];//{1,2,3,4,5,6}}; //FOR THIS, PUT 0 IN ALL THE PLACES YOU CANNOT GO TOO
+        //int[][] location = new int[10][10];//{1,2,3,4,5,6}}; //FOR THIS, PUT 0 IN ALL THE PLACES YOU CANNOT GO TO
+        int[][] location =  
+                   {{1,1,1,0,0,0,0,0,0,0}, //REMEMBER TO PUT THIS IN THE MAIN CLASS AS WELL, or not idk
+                    {1,1,1,0,0,0,0,0,0,0},
+                    {1,1,1,0,0,0,0,0,0,0},
+                    {1,1,1,0,0,0,0,0,0,0},
+                    {1,1,1,0,0,0,0,0,0,0},
+                    {1,1,1,0,0,0,0,0,0,0},
+                    {1,1,1,0,0,0,0,0,0,0},
+                    {1,1,1,0,0,0,0,0,0,0},
+                    {1,1,1,0,0,0,0,0,0,0},
+                    {1,1,1,0,0,0,0,0,0,0}};
 
         String input = in.nextLine();
         if (input.toLowerCase().equals("north")) //might want to make this a switch statement later
