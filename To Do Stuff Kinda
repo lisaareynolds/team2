@@ -5,11 +5,8 @@ Programming related:
 Seperate Class Files:
 
 Map - displays what you have explored of the map
-Stats - shows stats like health, items, etc (Finished)
-Move - moves location.  Excepts a second input
 Attack - attack something
 Inspect - inspect something
-Death - you died (Finished kinda)
 
 
 TODO List:
