@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class PorkMainFile
 {
-    public static void main(String[] args)
+    public static void main(String[] args) throws ArrayIndexOutOfBoundsException
     {
         Scanner in = new Scanner(System.in);
         boolean finished = false;
