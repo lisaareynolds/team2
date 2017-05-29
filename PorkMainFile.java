@@ -9,7 +9,7 @@ public class PorkMainFile
         int time = 15;
         boolean door = false;
 
-        System.out.println("Version 0.1, all rights reserved");
+        System.out.println("Version 1.0, all rights reserved");
         System.out.println("  ____     ___    ____    _  __");
         System.out.println(" |  _ \\   / _ \\  |  _ \\  | |/ /");
         System.out.println(" | |_) | | | | | | |_) | | ' / ");
