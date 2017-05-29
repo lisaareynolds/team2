@@ -1,18 +1,10 @@
-Story:
-???
+A basic first room was added to show how the program worked
+However, if anyone wants to continue adding content they can
 
-Programming related:
-Seperate Class Files:
-
-Map - displays what you have explored of the map
-Attack - attack something
-Inspect - inspect something
-
-
-TODO List:
-
-Make main file into a switch statement
-Make Death more customized to how you died
-Finish the map/map class
-Add items in the rooms for classes like inspect and attack to use
-Add a real story once all this is done
+Right now all we have is:
+ - Basic classes like move, death, inspect
+ - A health system
+ - One room
+ - Two ways to die, one of which is just by suicide
+ - One ending
+ - One character, which happens to be you
