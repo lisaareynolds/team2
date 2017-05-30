@@ -37,6 +37,21 @@ public class Inspect
                 System.out.println("The screen flashes \"Incorrect!\"");
             }
         }
+        else if (currentx == 4 && currenty == 2)
+        {
+            System.out.println("Stuff");
+            System.out.println("Any guesses?");
+            String input = in.nextLine();
+            if (input.toLowerCase().equals("nothing"))
+            {
+                System.out.println("The screen flashes \"Correct!\", and the door opens");
+                return true;
+            }
+            else
+            {
+                System.out.println("The screen flashes \"Incorrect!\"");
+            }
+        }
         else
         {
             System.out.println("There is nothing to inspect here!");
